@@ -138,6 +138,25 @@ ${formData.message}
 
         </div>
       </section>
+
+      <section className="map-section">
+
+  <div className="map-header">
+    <span>Visit Aurora Spa</span>
+    <h2>Find Us Easily</h2>
+  </div>
+
+  <iframe
+    title="Aurora Spa Location"
+    src="https://www.google.com/maps/embed?pb=!1m18"
+    width="100%"
+    height="500"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+  ></iframe>
+
+</section>
     </div>
   );
 }

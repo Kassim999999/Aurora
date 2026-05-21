@@ -94,6 +94,32 @@
     font-size: 16px;
 }
 
+/* MAP SECTION */
+
+.map-section {
+    padding: 0 8% 100px;
+}
+
+.map-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.map-header span {
+    color: #556b2f;
+    font-weight: 600;
+}
+
+.map-header h2 {
+    font-size: 48px;
+    margin-top: 15px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.map-section iframe {
+    border-radius: 30px;
+}
+
 @media (max-width: 768px) {
 
     .contact-section {
