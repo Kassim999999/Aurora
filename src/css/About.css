@@ -114,6 +114,11 @@
     line-height: 1.8;
 }
 
+.stat-card,
+.why-card {
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
 
     .about-hero h1,

@@ -1,4 +1,5 @@
 import "../css/Footer.css";
+import logo from "../assets/Aurora.png";
 
 function Footer() {
   return (
@@ -7,6 +8,11 @@ function Footer() {
       <div className="footer-content">
 
         <div className="footer-brand">
+            <img
+  src={logo}
+  alt="Aurora Spa Logo"
+  className="footer-logo"
+/>
           <h2>Aurora Spa</h2>
           <p>
             Where relaxation begins.

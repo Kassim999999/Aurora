@@ -35,6 +35,7 @@
 .gallery-card {
     overflow: hidden;
     border-radius: 30px;
+    transition: 0.4s ease;
 }
 
 .gallery-card img {
@@ -42,6 +43,7 @@
     height: 420px;
     object-fit: cover;
     transition: transform 0.5s ease;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
 
 .gallery-card:hover img {

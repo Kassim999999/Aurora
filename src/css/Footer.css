@@ -15,6 +15,12 @@
     max-width: 350px;
 }
 
+.footer-logo {
+    width: 70px;
+    margin-bottom: 18px;
+    object-fit: contain;
+}
+
 .footer-brand h2 {
     font-size: 38px;
     margin-bottom: 20px;

@@ -21,12 +21,20 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <a
-  href="https://wa.me/254113746777"
+<a
+  href="https://wa.me/254113746777?text=Hello%20Aurora%20Spa%20🌿%20I%20would%20like%20to%20make%20an%20inquiry."
   className="whatsapp-btn"
   target="_blank"
+  rel="noreferrer"
 >
-  WhatsApp Us
+  <span className="whatsapp-tooltip">
+    Ready to book an appointment?
+  </span>
+
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+  />
 </a>
 
       <Footer />
